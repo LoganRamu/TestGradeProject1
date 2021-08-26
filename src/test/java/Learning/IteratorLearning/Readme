@@ -1,0 +1,14 @@
+-only belongs to Set Interface
+-Its an Interface
+
+foreach: Only forward, no removal
+
+Iterator:
+-Only forward
+-Can remove
+
+Listiterator
+-Both way (next and previous)
+-Remove
+-add
+-Set

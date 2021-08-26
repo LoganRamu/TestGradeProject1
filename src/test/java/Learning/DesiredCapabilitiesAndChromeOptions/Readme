@@ -1,0 +1,11 @@
+ChromeExtension: CRX file
+1. Add extesnion in google manually
+2. Navigate to C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Default\Extensions
+and verify added extension
+ex: C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Default\Extensions\mgijmajocgfcbeboacabfgobmjgjcoja\4.1.7_0
+
+3. Copy the above URL
+4. In Chrome://extensions->Dev mode on
+5. Pack Extension: and paste the above URL
+6. Paste the .crx file in project
+7. USe chromeoption class

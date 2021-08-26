@@ -1,0 +1,15 @@
+Static mothods not be override
+
+Also only static differ not be overload
+
+public static void test()
+{
+}
+public void test()
+{
+}
+above comile error
+
+We can redeclare, but can't be overrie
+
+Final,

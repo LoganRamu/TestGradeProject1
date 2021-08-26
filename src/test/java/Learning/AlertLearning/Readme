@@ -1,0 +1,9 @@
+->Simple alert
+->Confirm alert
+->Prompt alert
+
+
+Below is type of alert, but we can't handle it using Alert class
+->Windows authenticate alert
+
+

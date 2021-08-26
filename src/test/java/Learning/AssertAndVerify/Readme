@@ -1,0 +1,9 @@
+Assertion:
+Hard assertion- Assert
+Soft assertion- Verify
+
+Both Junit and TestNG frameworks have assertion
+- Since Junit is unit test framework doesn't have Soft assert (verify) in built
+    -if we need we ahve to import org.assertj.core.api
+    -Its called fluent assert
+- TestNG functional testing framework it have both Hard assert and soft assert in  uilt

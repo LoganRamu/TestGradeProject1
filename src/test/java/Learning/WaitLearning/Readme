@@ -1,0 +1,21 @@
+-Explicit wait is dynamic wait
+-We can use both imp wait and exp wait at a time
+
+Fluent wait:
+-We can set the polling time
+-Reduce the burden of default polling
+-We can set how iften compilet should check for element within the given time
+
+
+------
+
+Thread.sleep(5000);
+
+Wait for 5 seconds eventhough the element is present in 2 secs
+
+Implicit wait:
+Pros: driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+if the element found in 1st sec, go for next step in code
+is wait untill element preset in DOM, not wait for interact
+Only check whether the element present in DOM
+Static, no condition

@@ -1,0 +1,31 @@
+Public:
+Can access from any package/class
+
+Private:
+Within the class
+
+Default:
+Access within the package
+- Access with in the class
+
+Protected:
+Inheritance,
+If base class, have one method protected
+it can be access in same package if its inheritance
+
+Within the class
+within the package
+
+-------
+
+Methods declared public in a superclass also must be public in all subclasses.
+Methods declared protected in a superclass must either be protected or public in subclasses;
+they cannot be private.
+Methods declared private are not inherited at all, so there is no rule for them.
+
+Access Levels
+|Modifier  Class	Package	Subclass	World
+public	      Y	        Y	    Y	       Y
+protected	  Y	        Y	    Y	       N
+Default	      Y	        Y	    N	       N
+private	      Y	        N	    N	       N

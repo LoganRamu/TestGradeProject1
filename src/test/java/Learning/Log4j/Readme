@@ -1,0 +1,35 @@
+Log4j
+1. Logger for Java
+2. Imp classes(Compenents of log4j)
+a. Logger class:
+        - Create obj for Logger class
+     Methods: info, debug, warn, error, fatel (Log levels)
+     Levels:
+     debug
+     info
+     warn
+     error
+     fatel
+b. Appender:
+to write messaged to file
+few types are:
+a. JDBCAppender
+b. FileAppender
+c. ConsoleAppender
+
+c.Layout:
+    log Format:(ex: time, logger level)
+    Output define
+   a. PatterLayout
+   b. XMLLayout
+   c. HTMLLayout
+   d. SimpleLayout
+
+
+Different ways to config
+1. Property file configurator
+2. XML file configurator
+
+
+we can crate obj without using new keyword:
+init elements

@@ -1,0 +1,11 @@
+3 approach to take screenshot
+-TakesScreenShot
+-Directly from driver
+
+above both we will get screen without URL
+so if any alerts in the page, above methods not working
+-->If any alerts presents in the page means we cant take screenshot using above approches
+
+for that we have to use Robot class from Java.awt
+
+

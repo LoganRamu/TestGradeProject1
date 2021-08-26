@@ -1,0 +1,21 @@
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        plugin = {"html:build/reports/cucumber/alertDemo.html"},
+        glue = {"AlertTestPackage"},
+        features = "classpath:AlertDemo.feature",
+        dryRun=true,
+        monochrome = true
+
+-dryRun=true: just chk whether the stepDef is available for all the feature steps
+-dryRun=false: actual execution
+
+-strict (actually deferred):
+strict=true (End of the execution throw error and mention that step def not avilable) - faile
+strict=false (End of the execution no throw error and mention that step def not avilable) - pass
+
+tags="@Test1, @Test2" // or function
+tags="@Test1", '@Test2" // and function
+tags="~@Test1" // exclude
+
+
+

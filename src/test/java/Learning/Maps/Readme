@@ -1,0 +1,25 @@
+Maps:
+Interface
+One of the collection framework
+key, value
+Have put, get
+
+HashMap
+-No Duplicates
+-One null key
+-Many null value
+-No order
+
+TreeMap
+-No Duplicates
+-No null key
+-Many null value
+-Maintain ascending order
+-If we need decending order we can use Iterator- need to confirm
+
+LinkedHashMap
+-No Duplicates
+-One null key
+-Many null value
+-Maintain ascending order
+-If we need decending order we can use Iterator- need to confirm

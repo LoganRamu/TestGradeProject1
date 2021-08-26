@@ -1,0 +1,53 @@
+//button[normalize-space(@class='button is-fullwidth is-link')]
+
+normalize space will trim the space between
+
+https://letcode.in/alert
+
+--------
+
+//a[contains(text(),'Work Space')]
+
+//footer[@class='card-footer']//following::a[contains(text(),'Drop-Down')]
+
+//select[@id='fruits']
+
+//button[contains(@class,'button']
+
+//button[normalize-space(@class,'button')]
+
+//select[contains(@id,'language']
+
+//button[text()='Save']
+
+
+
+
+//a[text()='Update Profile']
+
+
+//a[normalize-space(text(),'My Profile')]
+
+2829
+
+implementation 'com.aventstack:extentreports:4.0.9'
+
+//div[@class='control']following:://[@id='accept]
+
+//div[@class='control']//following::[@id='accept]
+
+
+-------
+
+(//input)[last()]
+
+(//input)[last()-1]
+
+(//input)[position()=1]
+
+(//input)[position()<1]
+
+Diff is last search from last element
+
+-------
+

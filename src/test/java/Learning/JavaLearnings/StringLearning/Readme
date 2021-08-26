@@ -1,0 +1,36 @@
+String class
+String implements interfaces like serializable, charsequence, comparable
+String is Immutable
+Creating a string in two ways
+literal:
+String a="test";
+String a1="test";
+-->JVM, heap Memory->Existing pointed to existing
+ex: String a---->test
+for String a1->not new memory created pointed to above
+-Efficient for memory
+
+new keyword:
+String a=new String("Test");
+String a1=new String("Test");
+Both created a separate in heap space
+
+Ex: String immutable
+String name="Logu";
+name="Logan";
+sout(name);
+Result: Logan;
+We assume that Logu is overriden by Logan
+But not, that String name is pointed to Logan now, so Logu is eligible for GC
+
+
+valueof(455); convert it to string
+------------
+/*Bufferreader is mutable
+declare using new only
+* Not possible for multi thread*/
+-------------
+/*Bufferreader is mutable
+declare using new only
+* possible for multi thread*/
+same methods as Stringbuffer

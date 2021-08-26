@@ -1,0 +1,58 @@
+List:
+1. Maintain orders
+2. Duplicate values allowed
+3. methods:
+add()
+remove()
+clear()
+addall()//copy one list to another list
+indexOf()
+lastIndexOf()
+set()//update the element with new one
+isEmpty()
+4. Null insertion is possible
+
+Not possible for runtime add/remove
+for (int i=0;i<myList.size();i++)
+        {
+            System.out.println("Print using for loop---"+myList.get(i));
+            //myList.add("Gova");//throws concurrent modification exception
+        }
+
+  since list doesn't support MULTI THREAD concept, not SYNCHRONOZATION
+  While loop running we try to add means, its multi thread
+
+  If we need we have to achive using below Class
+  CopyOnWriteArrayList<String> sync=new CopyOnWriteArrayList<String>();
+
+  1. ArrayList implements RandomAccess and serializable
+    -   RandomAccess mainly deals with search
+  2. ArrayList good for search
+  3. not perform good for insert and delete
+
+  -------------
+  Linked list
+
+  1. Maintain orders
+  2. Duplicate values allowed
+  3. methods:
+  poll()//delete first element
+  addFirst()
+  addLast()
+  delete()
+  removeFromFirst()
+
+ 1.  LinkedList not  implements RandomAccess
+           -   RandomAccess mainly deals with search
+ 2. LinkedList is not good for search
+ 3. good for insert and delete
+ since LinkedList deals with the next and previous elements in the list
+
+ 1->2->3->4->5
+ 1 is head. 5 is last
+ 1 deals only with 2
+ 2 only deals with 1 and 3
+
+ so good for insert and delete
+
+
