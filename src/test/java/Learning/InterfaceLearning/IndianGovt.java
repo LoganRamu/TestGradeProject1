@@ -5,9 +5,9 @@ package Learning.InterfaceLearning;
 public interface IndianGovt {
     int totdalBudget=100000;
 
-    public void normalFund();
+    void normalFund();
 
-    public void emergencyFund();
+     void emergencyFund();
 
 
     boolean extraFund();

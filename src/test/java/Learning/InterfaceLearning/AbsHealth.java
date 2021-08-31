@@ -11,7 +11,11 @@ public abstract class AbsHealth implements IndianGovt{
     @Override
     public boolean extraFund() {
         return true;
+
     }
+
+
+
 }
 
 //We cannot created obj for abs class

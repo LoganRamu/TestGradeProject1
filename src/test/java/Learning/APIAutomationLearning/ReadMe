@@ -1,0 +1,45 @@
+We need Java libraries to work with HTTP
+
+1. HttpURlConnection(java.net)- available inside java
+
+third party:
+
+2. Apace HttpClient library
+3. Unirest - third party
+4. Google-http-client
+5. Rest Assured
+
+Status code:
+1XX - 100 series
+2XX - 200 series
+3XX - 300 series
+4XX - 400 series
+5XX - 500 series
+
+2XX:
+- Success
+200 OK- respond for GET
+201 OK- respond for POST
+204 OK- No Content
+
+3XX:
+- Indicate redirection
+304- Method not allowed
+
+4XX:
+Error on the client side (User can handle this)
+Unauthorized
+Forbidden
+Method not allowed
+
+400 - Bad request
+401 - Unauthorized
+402 - Payment required
+403 - Forbidden (we ave access but we are not suppose to access)
+404 - Not found
+
+5XX:
+Error on the server side (User can't handle this, only the server maintenance people can handle this)
+
+500 - Internal server error
+503 - service unavailable

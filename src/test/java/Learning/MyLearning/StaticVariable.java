@@ -17,6 +17,7 @@ public class StaticVariable
         stvar.incre();
         stvar.incre();
 
+
         //variable belongs to class
         //not belongs to object
 

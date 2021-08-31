@@ -26,8 +26,7 @@ public class PrintAllLinksinPage {
         }
         System.out.println("Below are the proper URL");
         List<WebElement> properLinks = driver.findElements(By.xpath("//h3/following::cite"));
-        for (WebElement properUrls:properLinks)
-        {
+        for (WebElement properUrls : properLinks) {
             System.out.println(properUrls.getText());
 
         }
@@ -35,6 +34,6 @@ public class PrintAllLinksinPage {
 
     }
 
-    }
+}
 
 
