@@ -55,6 +55,7 @@ public class ListAndSet {
          mySet.add("Hexon");
          mySet.add("safari");
          mySet.add("Tiago");
+
          boolean empty=mySet.isEmpty();
          System.out.println("isEmpty---"+empty);
          //if need to sort can use Collections
@@ -65,6 +66,7 @@ public class ListAndSet {
              System.out.println(str);
          }
          mySet.remove("safari");//Cant use index remove in Set
+
          for (String str1:mySet)
          {
              System.out.println(str1);

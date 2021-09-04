@@ -1,6 +1,6 @@
 package Learning.MyLearning;
 
-public class StaticFunction
+ public class StaticFunction
 {
     public static void set()
     {

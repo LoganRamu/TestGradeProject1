@@ -4,22 +4,21 @@ One of the collection framework
 key, value
 Have put, get
 
-HashMap
+HashMap extends AbstractMap  implements Map, Clonable
 -No Duplicates
 -One null key
 -Many null value
 -No order
 
-TreeMap
+TreeMap extends AbstractMap implements Map, Clonable, NavigableMap
 -No Duplicates
 -No null key
 -Many null value
 -Maintain ascending order
 -If we need decending order we can use Iterator- need to confirm
 
-LinkedHashMap
+LinkedHashMap extends HashMap implements Map
 -No Duplicates
 -One null key
 -Many null value
--Maintain ascending order
--If we need decending order we can use Iterator- need to confirm
+-Insertion order

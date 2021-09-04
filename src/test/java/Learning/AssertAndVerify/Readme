@@ -7,3 +7,9 @@ Both Junit and TestNG frameworks have assertion
     -if we need we have to import org.assertj.core.api
     -Its called fluent assert
 - TestNG functional testing framework it have both Hard assert and soft assert in  util
+
+Soft Assert :
+-Soft Assert is used to verify the all Assert results at the end.
+-Soft Assert records failure not throwing exception
+
+When softassert.assertAll(); calls then throw the exception atlease one assert fails

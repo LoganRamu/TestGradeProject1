@@ -32,6 +32,7 @@ public class AssertAndVerfiyExample
         //Junit Verify (SoftAssert)
         SoftAssert softAssert=new SoftAssert();
         softAssert.assertEquals("Test1","Test2");
+        //softAssert.assertAll();//It will chk all the assert and throw exception if any one fails
         System.out.println("After Assert");
     }
     public static void main(String[] args) {

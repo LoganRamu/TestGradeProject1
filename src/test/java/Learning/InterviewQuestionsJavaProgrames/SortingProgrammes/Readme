@@ -1,0 +1,36 @@
+Approach 1: List (We can sort both ascending and descending order for both Premitive and non premitive data types)
+String[] names={"Apple", "Cake", "Banana"};
+int[] nums={5, 3, 2, 1};
+
+->Create one List
+List<String> myList=new ArrayList<String>();
+List<Integer> myList1=new ArrayList<Integer>();
+
+->Use the sort() and reverseOrder() methods
+
+Approach 2: Use Arrays class
+->Non Primitive: String, Integer...will work both ascending and descending order
+->Primitive: int, char, float..will work for only ascending order
+
+String[] names={"Apple", "Cake", "Banana"};
+
+Arrays.sort(names); //ascending order
+
+Arrays.sort(names, Collections.reverseOrder()); //descending order
+
+int[] nums={5, 3, 2, 1};
+
+Arrays.sort(nums); //ascending order
+
+Arrays.sort(nums, Collections.reverseOrder()); //descending order not working
+
+we have to change the position of the array
+
+
+List<String> myList=new ArrayList<String>();
+List<Integer> myList1=new ArrayList<Integer>();
+
+->Use the sort() and reverseOrder() methods
+
+
+Store String array in List and then

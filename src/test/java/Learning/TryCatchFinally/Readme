@@ -1,0 +1,28 @@
+Try- finally-catch-> no
+
+Try-catch-finally - yes
+Try-finally - yes
+
+try
+{
+}
+finally
+{
+}
+
+above code if exception not catch, however finally executs
+
+1. Finally will execute whether the exception throws or not, finally block will execute
+2. More catch block possible
+3. One try one finally block possible
+
+
+
+
+Catch block hierarchy:
+
+1. Lower level exception declare first
+
+2. Higher level second
+
+

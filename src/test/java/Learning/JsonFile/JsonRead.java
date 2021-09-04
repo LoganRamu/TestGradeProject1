@@ -6,6 +6,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.io.FileHandler;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -31,7 +32,6 @@ public class JsonRead {
         while (iterator.hasNext()) {
             System.out.println("Exp---" + iterator.next());
         }
-
 
     }
 }

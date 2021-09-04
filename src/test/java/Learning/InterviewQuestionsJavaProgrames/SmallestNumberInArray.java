@@ -38,16 +38,11 @@ public class SmallestNumberInArray {
 
             if (allInts > maximum)
                 maximum = allInts;
-                if (allInts > second_Max && second_Max != maximum)
-                    second_Max = allInts;
-
-
-
+            if (allInts > second_Max && second_Max != maximum)
+                second_Max = allInts;
         }
         System.out.println("Maximum--" + maximum);
         System.out.println("Second_Max--" + second_Max);
-
-
     }
 
     public static void main(String[] args) {

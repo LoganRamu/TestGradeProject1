@@ -11,6 +11,5 @@ public class WebDriverManagerLearning
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.get("http://www.google.com");
-
     }
 }

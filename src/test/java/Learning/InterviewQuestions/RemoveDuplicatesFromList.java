@@ -10,6 +10,8 @@ public class RemoveDuplicatesFromList {
         myList1.add("Altroz");
         myList1.add(null);
 
+
+
         //Below are streaming type of print from Java 8
         //myList1.forEach(i-> System.out.println(i));
 
@@ -32,7 +34,8 @@ public class RemoveDuplicatesFromList {
         }*/
 
         //Approach 2: using Set will remove dups
-        Set<String> mySet = new HashSet<String>(myList1);
+        Set<String> mySet = new HashSet<String>();
+        mySet.addAll(myList1);
         Iterator<String> iterator = mySet.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());

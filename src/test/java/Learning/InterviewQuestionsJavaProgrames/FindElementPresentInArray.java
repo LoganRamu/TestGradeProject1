@@ -23,9 +23,33 @@ public class FindElementPresentInArray {
             System.out.println("Not found");
         }
     }
+//Foreach
+    public static void test1()
+    {
+        int[] array={1,2,3,4};
+        int found=9;
+        boolean isPresent=false;
+
+        for (Integer allInts:array) {
+            if(allInts==found)
+            {
+                isPresent=true;
+                break;
+            }
+
+        }
+        if(isPresent)
+        {
+            System.out.println("yes");
+        }else
+            System.out.println("no");
+
+
+    }
 
     public static void main(String[] args) {
         elementPresent();
+        test1();
     }
 }
 

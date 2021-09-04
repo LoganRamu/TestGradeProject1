@@ -6,7 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 public class AlertSimple
 {
@@ -16,7 +19,9 @@ public class AlertSimple
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\IdeaProjects\\Drivers-Jars\\chromedriver.exe");
         driver=new ChromeDriver();
         driver.get("https://letcode.in/alert");
-        driver.findElement(By.id("accept")).click();
+        List<WebElement> accept = driver.findElements(By.id("accept"));
+        accept.get(0).click();
+
         //Alert alert=driver.switchTo().alert();
         //alert.accept();
 
@@ -27,6 +32,8 @@ public class AlertSimple
         until.dismiss();
         until.getText();
         until.sendKeys("");*/
+
+
     }
 
 }
