@@ -48,10 +48,5 @@ public class UploadFiles {
 
         Actions actions=new Actions(driver);
         actions.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).perform();
-
-
-
-
-
     }
 }

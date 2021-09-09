@@ -10,7 +10,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 public class SimpleExample
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         WebDriver driver;
         driver=new ChromeDriver();
         driver.get("https://www.facebook.com/login/web/");
@@ -18,7 +18,10 @@ public class SimpleExample
         WebElement email=driver.findElement(By.id("email"));
         js.executeScript("arguments[0].value='logangru.com'",email);
         //js.executeScript("arguments[0].value=arguments[1]",email, 'logangru.com');
-        js.executeScript("document.getElementsByName('pass')[0].value='pass'","");
+        //js.executeScript("document.getElementsByName('pass')[0].value='pass'","");
+        js.executeScript("document.getElementsByName('pass')[0].value='pass'");
+        Thread.sleep(3000);
+        driver.quit();
 
     }
 }

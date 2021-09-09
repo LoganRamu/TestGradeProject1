@@ -21,7 +21,7 @@ public class ListAndSet {
         myList.add("four");
         myList.add("four");
 
-        //myList.add("");
+        myList.add("");
         boolean empty=myList.isEmpty();
             System.out.println("isEmpty---"+empty);
         //if need to sort can use Collections

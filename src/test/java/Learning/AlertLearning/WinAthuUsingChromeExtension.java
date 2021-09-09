@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.File;
-
+//MultiPass HTTP extension
 public class WinAthuUsingChromeExtension {
     public static void main(String[] args) {
         File file=new File("Auth.crx");

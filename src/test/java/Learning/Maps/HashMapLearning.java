@@ -4,7 +4,7 @@ import java.util.*;
 
 public class HashMapLearning {
     public static void  main(String args[]) {
-       TreeMap<Integer, String> hashMap = new TreeMap<Integer, String>();
+      HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
 
         //To sort map, have to store it in Tree map- ascending
         //For descending use below method

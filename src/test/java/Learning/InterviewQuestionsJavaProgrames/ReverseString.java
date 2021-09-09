@@ -28,6 +28,21 @@ public class ReverseString {
         System.out.println(reversedName);
     }
 
+    public static void reverseIntOwnLogic() {
+        //Approach3:  using Collections
+
+        int number = 9876;
+        String numToStr=Integer.toString(number);
+        String reversedName = "";
+        char[] charArray = numToStr.toCharArray();
+        for(int i=charArray.length-1;i>=0;i--)
+        {
+            reversedName=reversedName+charArray[i];
+            //System.out.println(charArray[i]);
+        }
+        System.out.println(reversedName);
+    }
+
     public static void reverseUsingCollections() {
         //Approach3:  using Collections
 
@@ -50,10 +65,35 @@ public class ReverseString {
         System.out.println(reversedName);
     }
 
+    public static void intReverseUsingCollections() {
+        //Approach3:  using Collections
+
+        int number = 2345;
+        String numToStr=Integer.toString(number);
+        String reversedName = "";
+        char[] charArray = numToStr.toCharArray();
+        List<Character> characterList = new ArrayList<Character>();
+
+        for (Character allChars : charArray) {
+            characterList.add(allChars);
+        }
+        Collections.reverse(characterList);
+
+        Iterator iterator = characterList.iterator();
+
+        while (iterator.hasNext()) {
+            reversedName = reversedName + iterator.next();
+            //System.out.println(iterator.next());
+        }
+        System.out.println(reversedName);
+    }
+
     public static void main(String[] args) {
-        reverseUsingStringBuffer();
+        /*reverseUsingStringBuffer();
         reverseUsingOwnLogic();
-        reverseUsingCollections();
+        reverseUsingCollections();*/
+        //intReverseUsingCollections();
+        reverseIntOwnLogic();
 
 
     }

@@ -29,6 +29,8 @@ public class FluentWait {
         System.out.println("Fluent Successfully");
         Select select=new Select(fruits);
         select.selectByVisibleText("Apple");
+        WebElement firstSelectedOption = select.getFirstSelectedOption();
+        System.out.println(firstSelectedOption);
 
     }
 }

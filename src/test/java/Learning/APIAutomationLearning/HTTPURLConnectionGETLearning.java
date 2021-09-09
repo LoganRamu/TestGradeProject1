@@ -11,6 +11,7 @@ import java.net.URLConnection;
 
 public class HTTPURLConnectionGETLearning {
     public static void main(String[] args) throws IOException {
+
         URL url = new URL("https://api.dictionaryapi.dev/api/v2/entries/en/hello");
 
         HttpURLConnection httpUrlConnection = (HttpURLConnection) url.openConnection();
@@ -44,7 +45,6 @@ public class HTTPURLConnectionGETLearning {
             stringBuffer.append(allLine);
             break;
         }
-
-        System.out.println(stringBuffer);
     }
 }
+

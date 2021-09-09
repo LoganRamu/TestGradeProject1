@@ -10,7 +10,7 @@ finally
 {
 }
 
-above code if exception not catch, however finally executs
+above code if exception not catch, however finally executes
 
 1. Finally will execute whether the exception throws or not, finally block will execute
 2. More catch block possible

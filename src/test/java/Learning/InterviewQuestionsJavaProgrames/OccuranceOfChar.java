@@ -6,9 +6,11 @@ public class OccuranceOfChar
     {
         String name="Loganathan";
 
-        char found='a';
+        char found='g';
+
 
         int ocurances=0;
+        int positionAlphabet=0;
 
         name=name.toLowerCase();
 
@@ -17,8 +19,11 @@ public class OccuranceOfChar
             if(name.charAt(i)==found)
             {
                 ocurances++;
+                positionAlphabet=(int) found;
+                positionAlphabet=positionAlphabet-96;
             }
         }
+        System.out.println(positionAlphabet);
         System.out.println(ocurances);
     }
 

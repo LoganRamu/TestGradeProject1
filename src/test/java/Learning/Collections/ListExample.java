@@ -10,16 +10,19 @@ public class ListExample
     public void listLearning() {
         List<String> myList = new ArrayList<String>();
         myList.add("Banana");
+        myList.add("JackFruit");
         myList.add("Apple");
         myList.add("Sweetlemon");
         myList.add("JackFruit");
-        myList.add("JackFruit");
         myList.add(null);
-        myList.remove(0);
+        myList.add("");
+        //myList.remove("JackFruit");
         myList.set(1,"GreenApple");
         System.out.println(myList);
+        System.out.println("0th elelemt--"+ myList.get(0));
+        myList.forEach(System.out::println);
 
-        List<String> myList1 = new ArrayList<String>();
+        /*List<String> myList1 = new ArrayList<String>();
         myList1.addAll(myList);
         System.out.println(myList1);
         myList1.clear();
@@ -52,7 +55,7 @@ public class ListExample
         {
             System.out.println(listIterator.previous());
         }
-
+*/
 
     }
 
