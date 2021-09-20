@@ -11,7 +11,7 @@ public class Bike extends Vehicle{
 
     public Bike(int number)
     {
-        super(number);// or //super(87);
+       super(number);// or //super(87);
         System.out.println("Bike number--"+number);
 
     }

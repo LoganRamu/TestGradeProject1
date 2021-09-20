@@ -36,8 +36,10 @@ dependencies {
 
 test {
     useJUnitPlatform()
-
+    systemProperty "cucumber.options",System.getProperty("cucumber.options")
 }
+
+//gradle test -Dcucumber.options="-tags @tagName"
 //task SauceDemotask(type: Test){
   //  ignoreFailures = true
     //reports.junitXml.enabled = false

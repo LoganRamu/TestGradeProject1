@@ -43,3 +43,18 @@ Error on the server side (User can't handle this, only the server maintenance pe
 
 500 - Internal server error
 503 - service unavailable
+
+-------
+
+REST:
+-Internally supports HTTP
+-Test for RESTFul APIs
+
+Authentication types
+-No Auth
+-Basic Auth
+-Digest auth
+-Form Auth
+-Oauth1 and Oauth2 (Deals with the access tokens)
+
+response.getTime();
